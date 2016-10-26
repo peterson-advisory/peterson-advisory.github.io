@@ -1,133 +1,30 @@
 <!DOCTYPE html>
-
-<html lang="en">
-<head>
-    <title>Peterson Advisory Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-
-    <!-- Scripts -->
-    <script src="https://use.fontawesome.com/10aabb73c4.js"></script>
-    <script src="dropdown.js"></script>
-
-    <!-- Google Analytics -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-80479598-1', 'auto');
-  ga('send', 'pageview');
-
-    </script>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
-
-
-    <!--Page-specific CSS-->
-    <style>
-        .jumbotron{
-            background-image: url('images/alone2.png');
-        }
-        .caption{
-            top: 35%;
-        }
-        .caption span.border {
-            padding: 18px;
-        }
-        @media only screen and (max-width: 600px) {
-            .jumbotron{
-                background-image: url('images/alone_small.png');
-            }
-
-            .caption span.border a{
-                letter-spacing: 2px;
-                font-size: 5vw;
-            }
-
-            .jumbotron p{
-                font-size: 3vw;
-            }
-            .jumbotron a{
-                font-size: 3vw;
-            }
-
-            .dropdown-content a{
-                font-size: 22px;
-            }
-        }
-    </style>
-
-</head>
-
+<html>
+<title>Peterson Advisory Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('/w3images/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
 <body>
-    <!-- Bootstrap navbar -->
-    <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header"><a class="navbar-brand" href="index.html">mindy lou</a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-menubuilder">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="index.html">home</a>
-                </li>
-                <li><a href="about.html">about</a>
-                </li>
-                <li><a href="projects.html">projects</a>
-                </li>
-                <li><a href="resume.html">résumé</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
 
-
-            </ul>
-        </div>
-    </div>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
   </div>
-  
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">PETERSON IS THE BEST ADVISORY EVER!</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+  </div>
+</div>
 
-    <!-- Jumbotron -->
-    <section class="jumbotron">
-        <div class="container">
-            <div class="row-main">
-                <div class="caption">
-                <span class="border"><a href="about.html">PETERSON ADVISORY IS THE BEST EVER!&raquo;</a></span>
-                <br>
-            </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Fixed contact dropdown -->
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"><span class="fa fa-caret-square-o-down"></span></button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="mailto:mml234@cornell.edu" target="_blank"><span class="fa fa-envelope"></span>
-                <a href="https://www.linkedin.com/in/mindylou" target="_blank"><span class="fa fa-linkedin"></span></a>
-                <a href="https://github.com/mindylou" target = "_blank"><span class="fa fa-github"></span></a>
-                <a href="http://vsco.co/mlou15/images/1" target = "_blank"><span class="fa fa-camera-retro"></span></a>
-            </div>
-    </div>
-
-    <footer class="footer">
-        <p>&copy; 2014-2017 BEST ADVISORY</p>
-    </footer>
 </body>
 </html>
